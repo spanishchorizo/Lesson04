@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+  * {
+    font-family: "Open-Sans", sans-serif;
+    margin: auto;
+  }
+
+  .banner-image {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    color: white;
+    background: #0099cc;
+    padding: 3rem 7rem 0rem;
+  }
+
+  h2 {
+    color: white;
+    background: #0099cc;
+    padding: 1rem 7rem 3rem;
+    font-weight: 400;
+  }
+
+  .nav-links li {
+    list-style: none;
+    display: block;
+    float: left;
+    padding: 1rem;
+    background-color: gainsboro;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+  }
