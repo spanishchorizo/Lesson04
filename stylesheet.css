@@ -5,76 +5,66 @@
     margin: auto;
   }
 
-  .banner-image {
-    display: block;
-    margin: auto;
-    width: 100%;
-    height: auto;
-  }
+    .banner-image {
+      display: block;
+      margin: auto;
+      width: 100%;
+      height: auto;
+    }
 
-  h1 {
-    color: white;
-    background: #0099cc;
-    padding: 3rem 7rem 0rem;
-    font-size: 40px;
-  }
+    h1 {
+      color: white;
+      background: #0099cc;
+      padding: 3rem 7rem 0rem;
+      font-size: 40px;
+    }
 
-  h2 {
-    color: white;
-    background: #0099cc;
-    padding: 1rem 7rem 3rem;
-    font-weight: 400;
-    font-size: 22px;
-  }
+    h2 {
+      color: white;
+      background: #0099cc;
+      padding: 1rem 7rem 3rem;
+      font-weight: 400;
+      font-size: 22px;
+    }
 
-  .nav-links {
-    width: 100%;
-    height: auto;
-    padding: 0rem 6rem;
-    background-color: #E5E5E5;
-  }
+    .nav-links {
+      width: 100%;
+      height: auto;
+      padding: 0rem 6rem;
+      background-color: #eee;
+    }
 
-  .nav-links li {
-    list-style: none;
-    display: inline-block;
-    padding: 1rem;
-  }
+    .nav-links li {
+      list-style: none;
+      display: inline-block;
+      padding: 1rem;
+    }
 
-  .nav-links a {
-    text-decoration: none;
-    color: black;
-    font-size: 13px;
-    font-weight: bold;
-  }
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+      font-size: 13px;
+      font-weight: bold;
+    }
 
-  .blue-text {
-    color: #0099cc;
-  }
+    .blue-text {
+      color: #0099cc;
+    }
 
-  article {
-    margin: 2rem 7rem;
-  }
+    article {
+      margin: 2rem 7rem;
+    }
 
-  blockquote {
-    padding: 2rem 0rem;
-    line-height: 2rem;
-  }
+    article p {
+      padding: 1rem 0rem;
+    }
 
-  aside {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    width: 30%;
-    font-size: 14px;
-  }
+    .content {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
 
-  aside h3, p {
-    width: 100%;
-    text-align: left;
-    padding: 10px 0px;
-  }
-
-  aside a {
-    text-decoration: none;
-    padding: 10px 0px;
-  }
+    blockquote {
+      padding: 2rem 0rem;
+      line-height: 2rem;
+    }
