@@ -16,6 +16,7 @@
     color: white;
     background: #0099cc;
     padding: 3rem 7rem 0rem;
+    font-size: 40px;
   }
 
   h2 {
@@ -23,14 +24,20 @@
     background: #0099cc;
     padding: 1rem 7rem 3rem;
     font-weight: 400;
+    font-size: 22px;
+  }
+
+  .nav-links {
+    width: 100%;
+    height: auto;
+    padding: 0rem 6rem;
+    background-color: #E5E5E5;
   }
 
   .nav-links li {
     list-style: none;
-    display: block;
-    float: left;
+    display: inline-block;
     padding: 1rem;
-    background-color: gainsboro;
   }
 
   .nav-links a {
@@ -38,4 +45,36 @@
     color: black;
     font-size: 13px;
     font-weight: bold;
+  }
+
+  .blue-text {
+    color: #0099cc;
+  }
+
+  article {
+    margin: 2rem 7rem;
+  }
+
+  blockquote {
+    padding: 2rem 0rem;
+    line-height: 2rem;
+  }
+
+  aside {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    font-size: 14px;
+  }
+
+  aside h3, p {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0px;
+  }
+
+  aside a {
+    text-decoration: none;
+    padding: 10px 0px;
   }
