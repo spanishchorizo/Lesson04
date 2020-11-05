@@ -135,6 +135,18 @@
       color: grey;
     }
 
+    .cat-box {
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      border: 1rem double black;
+      border-color: #0099cc;
+      padding: 2rem;
+      position: relative;
+      top: 1rem;
+      font-weight: bold;
+    }
+
     .footer-image {
       width: 100%;
       height: auto;
