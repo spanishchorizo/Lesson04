@@ -11,31 +11,27 @@
 
     header {
       position: relative;
-      width: 100%
-      height: auto;
-    }
-    
-    .header-image {
       width: 100%;
       height: auto;
       position: relative;
       top: -2rem;
       background-image: url(../images/banner-image.jpg);
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
     }
 
-    .header-image h1 {
+    header h1 {
       color: white;
       padding: 5rem 9rem 0rem;
       font-size: 45px;
     }
 
-    .header-image h2 {
+    header h2 {
       color: white;
+      position: relative;
+      top: -1rem;
       padding: 0rem 9rem 0rem;
       font-size: 24px;
-      font-style: italic;
       font-weight: 100;
     }
 
@@ -55,7 +51,7 @@
     .header-nav li a:after {
       content: " / ";
       position: relative;
-      right: -.5rem;
+      left: .5rem;
       color: black;
     }
 
@@ -69,7 +65,7 @@
       color: black;
       font-size: 15px;
       font-weight: bold;
-      padding: 0rem -1rem;
+      padding: 0rem;
     }
 
     .header-nav a:hover {
@@ -84,6 +80,7 @@
     main {
       position: relative;
       right: -1.5rem;
+      top: -3rem;
       width: 80%;
       min-height: auto;
       overflow: hidden;
@@ -132,6 +129,10 @@
 
     .content-right a {
       text-decoration: none;
+    }
+
+    .content-right a:hover {
+      color: grey;
     }
 
     .footer-image {
