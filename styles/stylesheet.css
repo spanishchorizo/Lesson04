@@ -9,30 +9,31 @@
       width: 100%;;
     }
 
-    .banner {
-      width: auto;
-      height: fit-content;
-      padding: 0rem 0rem;
-      background-image: url(../images/banner-image.jpg);
-      background-size: cover;
-    }
-
     header {
-      background-color: #0099cc;
-      text-align: left;
+      position: relative;
+      width: 100%
+      height: auto;
+    }
+    
+    .header-image {
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: -2rem;
+      background-image: url(../images/banner-image.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
     }
 
-    h1 {
+    .header-image h1 {
       color: white;
-      padding: 5rem 10rem 0rem;
+      padding: 5rem 9rem 0rem;
       font-size: 45px;
     }
 
-    h2 {
-      position: relative;
-      top: -1rem;
+    .header-image h2 {
       color: white;
-      padding: 0rem 10rem 3rem;
+      padding: 0rem 9rem 0rem;
       font-size: 24px;
       font-style: italic;
       font-weight: 100;
@@ -135,7 +136,7 @@
 
     .footer-image {
       width: 100%;
-      height: fit-content;
+      height: auto;
       padding: 5rem 0rem;
       background-image: url(../images/footer-image.jpg);
       background-size: cover;
